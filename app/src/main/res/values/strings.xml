@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Couples Care</string>
+    //welcome page
+
+    <string name="loginIn">Log In using mobile number</string>
+    <string name="trouble">Trouble logging in?</string>
+    <string name="policy">By tapping Log In, you agree with our Terms of Service and Privacy Policy</string>
+    <string name="learn">Learn how to feel comfortable around transgender people</string>
+    <string name="getstarted">Get started</string>
+    <string name="login">Login</string>
+
+    //number
+
+    <string name="yournumber">Your Number</string>
+    <string name="yourmobile">mobile number</string>
+    <string name="Continue">Continue</string>
+
+
+
+    //error
+    <string name="error_empty_user_id">Please enter your Email Address</string>
+    <string name="error_empty_current_pwd">Please enter your Current Password</string>
+    <string name="error_empty_new_pwd">Please enter your New Password</string>
+    <string name="error_empty_cfm_pwd">Please Confirm Password </string>
+    <string name="error_empty_msg">Please Enter your Message</string>
+    <string name="error_empty_user_name">Please enter your User Name</string>
+    <string name="error_empty_first_name">Please enter your First Name</string>
+    <string name="error_empty_last_name">Please enter your Last Name</string>
+    <string name="error_empty_password">Please enter your Password</string>
+    <string name="error_authentication">User not found</string>
+</resources>

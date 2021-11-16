@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    tools:context=".view.Enter_Number_Activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="match_parent">
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:background="@drawable/back"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_10sdp"
+            android:layout_height="wrap_content"/>
+
+        <com.couples.couplescares.controller.CustomViews.MyTextViewBold
+            android:layout_width="match_parent"
+            android:text="@string/yournumber"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:textSize="32sp"
+            android:textColor="@color/blacktext"
+            android:padding="@dimen/_10sdp"
+            android:layout_height="wrap_content"/>
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/login_illus"
+            tools:ignore="ImageContrastCheck,ImageContrastCheck" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:background="@drawable/boarder_gray_white"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:padding="@dimen/_10sdp"
+            android:weightSum="2"
+            android:gravity="center"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_height="wrap_content">
+
+            <com.rilixtech.widget.countrycodepicker.CountryCodePicker
+                android:id="@+id/ccp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight=".5"
+                android:gravity="center"
+                android:minHeight="48dp"
+                app:ccp_defaultNameCode="US" />
+
+            <com.couples.couplescares.controller.CustomViews.MyEditTextBold
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1.5"
+                android:background=""
+                android:hint="@string/yourmobile"
+                tools:ignore="TextContrastCheck,TextContrastCheck" />
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
